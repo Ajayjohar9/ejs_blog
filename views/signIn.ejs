@@ -1,0 +1,24 @@
+<%- include("partials/header"); -%>
+<form class="" action="/signIn" method="post">
+<div class="box" id="heading">
+  <h1 class="headingText"> SIGN IN </h1>
+</div>
+
+
+  <div class="box">
+    <div class="item">
+      <input style="height: 70px; margin-bottom: -1px;" type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+    </div>
+    <div class="item">
+      <input style="height: 70px; margin-top: -1px; margin-bottom: -1px;" type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    </div>
+  </div>
+  <div class="">
+    <p class="create">Create an <a href="#">account</a></p>
+    <button class="signInbtn" type="submit" name="button">Sign In</button>
+  </div>
+
+</form>
+
+
+<%- include("partials/footer"); -%>

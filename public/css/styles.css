@@ -1,0 +1,136 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+
+
+.btnClass {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+  position: relative;
+  left: 93%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #1abc9c;
+  text-align: center;
+  color: #fff;
+  padding: 0.01%;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.headingText{
+  font-size: 40px;
+}
+
+.create{
+  margin-left: 57%;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: 	#808080;
+}
+
+.signInbtn {
+   background: #25CCAB;
+   background-image: -webkit-linear-gradient(top, #25CCAB, #099A7D);
+   background-image: -moz-linear-gradient(top, #25CCAB, #099A7D);
+   background-image: -ms-linear-gradient(top, #25CCAB, #099A7D);
+   background-image: -o-linear-gradient(top, #25CCAB, #099A7D);
+   background-image: -webkit-gradient(to bottom, #25CCAB, #099A7D);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 25px;
+   font-weight: 200;
+   padding: 10px;
+   -webkit-box-shadow: 2px 1px 7px 0 #C1D1CE;
+   -moz-box-shadow: 2px 1px 7px 0 #C1D1CE;
+   box-shadow: 2px 1px 7px 0 #C1D1CE;
+   border: solid #43DABC 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: relative;
+   left: 47%;
+   margin-bottom: 20px;
+}
+
+.signInbtn:hover {
+   border: solid #26B095 1px;
+   background: #1C9F85;
+   background-image: -webkit-linear-gradient(top, #1C9F85, #1ABC9C);
+   background-image: -moz-linear-gradient(top, #1C9F85, #1ABC9C);
+   background-image: -ms-linear-gradient(top, #1C9F85, #1ABC9C);
+   background-image: -o-linear-gradient(top, #1C9F85, #1ABC9C);
+   background-image: -webkit-gradient(to bottom, #1C9F85, #1ABC9C);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   text-decoration: none;
+}
